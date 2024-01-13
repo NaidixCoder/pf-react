@@ -1,8 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Mati Infante - Pesca y Aventura
+[!NOTE]
+E-commerce de productos de pesca
 
-Currently, two official plugins are available:
+## Tabla de Contenidos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+
+
+## Instalación
+
+### 1. Clona el repositorio:
+
+```bash
+git clone https://github.com/NaidixCoder/pf-react
+
+```
+
+### 2. Instala React + Vite
+```bash
+npm create vite@latest .
+```
+
+### 3. Instala librerias y dependencias
+
+#### Tailwind
+```bash
+[npm install -D tailwindcss postcss autoprefixer]
+```
