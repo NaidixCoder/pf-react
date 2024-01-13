@@ -57,13 +57,15 @@ npm install sweetalert2
 ## Uso
 
 ### Funcionalidades Principales
-1 - Filtrar productos por categoria.
-2 - Seleccionar un producto y ver los detalles del mismo.
-3 - Elegir la o las cantidades del producto para agregarlo al carrito.
-4 - Componente carrito con el listado de los productos cargados al mismo.
-5 - Formulario para finalizar la compra.
-6 - Opcion de vaciar el carrito. Con ventana modal para confirmar o denegar.
-7 - Opcion de eliminar un producto del carrito. Con ventana modal para confirmar o denegar.
+
+1. Filtrar productos por categoría.
+2. Seleccionar un producto y ver los detalles del mismo.
+3. Elegir la o las cantidades del producto para agregarlo al carrito.
+4. Componente carrito con el listado de los productos cargados al mismo.
+5. Formulario para finalizar la compra.
+6. Opción de vaciar el carrito. Con ventana modal para confirmar o denegar.
+7. Opción de eliminar un producto del carrito. Con ventana modal para confirmar o denegar.
+
 
 ## Tecnologías Utilizadas
 
