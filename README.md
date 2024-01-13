@@ -1,5 +1,4 @@
 # Mati Infante - Pesca y Aventura
-[!NOTE]
 E-commerce de productos de pesca
 
 ## Tabla de Contenidos

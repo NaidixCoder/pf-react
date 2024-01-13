@@ -14,7 +14,7 @@ function CheckOutForm({ onConfirm }) {
     return (
     <>
     <div className="w-100vh h-[calc(100vh-88px)] flex justify-center mt-10">
-        <form className="w-full max-w-lg" onSubmit={handleSubmit(onSubmit)} >
+        <form className="w-[90%] max-w-lg" onSubmit={handleSubmit(onSubmit)} >
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">

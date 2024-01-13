@@ -21,13 +21,13 @@ function ItemDetail( {id, name, img, category, desc, price, stock} ) {
     }
 
     return (
-        <article className="mt-20 h-[100%] place-items-center grid grid-cols-3 mx-[15%] p-3 border" >
+        <article className="mt-20 h-[100%] place-items-center grid gird-col-1 grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 mx-[15%] p-3 border" >
             
-            <picture className="col-start-1 col-end-3 max-w-[300px] lg:max-w-[500px] xl:max-w-[600px]" >
+            <picture className="row-start-1 row-end-2 lg:col-start-1 lg:col-end-3 max-w-[300px] lg:max-w-[450] xl:max-w-[550px]" >
                 <img src={img} className="object-cover"/>            
             </picture>
             
-            <div className="col-start-3 col-end-4 border-2 p-5 h-[100%] flex flex-col justify-center min-w-72">
+            <div className="row-star-2 row-end-3 lg:row-star-1 lg:row-end-2 lg:col-start-3 lg:col-end-4 border-2 p-5 h-[100%] flex flex-col justify-center min-w[300px] lg:min-w-72">
                 <p className="text-sm text-gray-500">Nuevo  | +1000 vendidos</p>
                 <header>
                     <h2 className="text-center text-3xl text-main uppercase pt-4 pb-2 font-serif">{name}</h2>
